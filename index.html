@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KL — Développeur Front‑End</title>
+        <meta name="description" content="Portfolio de développeur Front‑End : projets, compétences, contact. HTML, CSS, JavaScript, React, SEO et accessibilité.">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="script/script.js" defer></script>
+    </head>
+
+    <body>
+        
+        <header class="site-header">
+            <div class="container nav">
+            <a class="brand" href="#hero">
+                <img src="assets/img/KLlogo.webp" alt="Logo KL" class="brand-logo">
+            </a>
+            <nav>
+                <ul>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Mes projets</a></li>
+                <li><a class="btn-ghost" href="#contact">Me contacter</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+        <!-- HERO -->
+        <section id="hero" class="section-hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <div class="hero-title">
+                        <h1>Développeur Front-End</h1>
+                    </div>
+                    <p class="tagline">Création de sites modernes, performants et accessibles</p>
+                    <p>
+                        Spécialiste en <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> et <strong>React</strong>, 
+                        j’aide les entreprises et particuliers à créer des expériences web uniques et optimisées 
+                        pour le <strong>SEO</strong> et l’<strong>accessibilité</strong>.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn" href="#projets">Voir mes projets</a>
+                        <a class="btn-ghost" href="#contact">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="assets/img/KLlogo.webp" alt="KL, développeur front-end travaillant sur un projet web">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- COMPETENCES -->
+        <section id="competences" class="section">
+            <div class="container">
+                <h3>Mes compétences</h3>
+                <p class="intro-text">
+                    Technologies et outils que j’utilise pour concevoir des sites web performants, accessibles et optimisés.
+                </p>
+                <div class="skills-grid">
+                    <figure class="skill">
+                        <img src="/assets/img/html.webp" alt="Icône HTML5 — langage de structuration des pages web" aria-label="HTML5">
+                        <figcaption>HTML5</figcaption>
+                    </figure>
+                    <figure class="skill">
+                        <img src="/assets/img/css.webp" alt="Icône CSS3 — feuille de style pour mise en page et design" aria-label="CSS3">
+                        <figcaption>CSS3</figcaption>
+                    </figure>
+                    <figure class="skill">
+                        <img src="/assets/img/sass.webp" alt="Icône Sass — préprocesseur CSS pour un code optimisé" aria-label="Sass">
+                        <figcaption>Sass</figcaption>
+                    </figure>
+                    <figure class="skill">
+                        <img src="/assets/img/javascript.webp" alt="Icône JavaScript — langage pour sites web interactifs" aria-label="JavaScript">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure class="skill">
+                        <img src="/assets/img/react.webp" alt="Icône React — bibliothèque JavaScript pour interfaces dynamiques" aria-label="React">
+                        <figcaption>React</figcaption>
+                    </figure>
+                    <figure class="skill">
+                        <img src="/assets/img/redux.webp" alt="Icône Redux — gestion d’état centralisée" aria-label="Redux">
+                        <figcaption>Redux</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROJETS -->
+        <section id="projets" class="section">
+            <div class="container">
+                <h3>Mes projets</h3>
+
+                <div class="cards">
+                    <!-- Projet 1 -->
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="assets/img/argentbank1.webp" alt="Aperçu du site bancaire Argent Bank" class="img-click" data-target="collapse1">
+                        </div>
+                        <div class="card-body">
+                            <h4>Argent Bank — Application bancaire avec authentification et gestion d’état</h4>
+                            <p class="muted">React / Redux / API REST</p>
+                            <div class="collapse" id="collapse1">
+                                <a>
+                                    Développement d’une application bancaire front-end en <strong>React</strong> avec <strong>Redux</strong> pour la gestion d’état globale. 
+                                    Connexion sécurisée via une API REST, affichage des transactions, modification des informations utilisateur. 
+                                    Optimisation de l’UX et respect des bonnes pratiques d’accessibilité. 
+                                    compétences utilisées:  HTML, CSS, REACT, REDUX
+                                    <span>Cliquez pour accéder au lien github</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 2 -->
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="assets/img/ninacarducci1.webp" alt="Aperçu du site vitrine de la photographe Nina Carducci" class="img-click" data-target="collapse2">
+                        </div>
+                        <div class="card-body">
+                            <h4>Nina Carducci — Site vitrine optimisé pour le SEO</h4>
+                            <p class="muted">HTML / CSS / JavaScript</p>
+                            <div class="collapse" id="collapse2">
+                                <a href="https://github.com/sazh-1987/P8-OC-INTWEB">
+                                    Création et optimisation d’un site vitrine statique pour une photographe professionnelle. 
+                                    Amélioration du référencement naturel (<strong>SEO</strong>), intégration d’<strong>Open Graph</strong> et <strong>Twitter Cards</strong>, 
+                                    optimisation des images et mise en place de données structurées JSON-LD pour Google. 
+                                    compétences utilisées:  HTML, CSS, JavaScript, SEO, Accessibilité
+                                    Cliquez pour accéder au lien github
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- A PROPOS -->
+        <section id="apropos" class="section">
+            <div class="container narrow">
+                <h3>À propos de moi</h3>
+                <p class="intro-text">
+                    Développeur front-end passionné, je transforme des idées en expériences web modernes, performantes et accessibles.
+                </p>
+                <p>
+                    J’ai suivi la formation <strong>Intégrateur Web</strong> chez <strong>OpenClassrooms</strong>,
+                    où j’ai travaillé sur plusieurs projets concrets dans des conditions proches du monde professionnel.
+                    Cette formation m’a apporté une méthodologie rigoureuse et la capacité de m’adapter aux besoins de chaque client.
+                </p>
+                <h4>Les points forts de ma formation :</h4>
+                <ul class="list-check">
+                    <li>Projets concrets reproduisant des situations réelles.</li>
+                    <li>Apprentissage structuré des standards du web : <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>Sass</strong>.</li>
+                    <li>Application des bonnes pratiques en <strong>SEO</strong> et <strong>accessibilité</strong>.</li>
+                    <li>Mentorat personnalisé avec retours réguliers.</li>
+                    <li>Maîtrise des outils collaboratifs et de versionnage comme <strong>Git/GitHub</strong>.</li>
+                </ul>
+                <p>
+                    Aujourd’hui, je conçois des sites performants et ergonomiques,
+                    en respectant les standards du web et les attentes des utilisateurs.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="container narrow">
+                <h3>Me contacter</h3>
+                <p>Un projet ou une opportunité ? Écrivez‑moi, je vous réponds rapidement.</p>
+                <div class="contact-cta">
+                    <a class="btn" href="mailto:contact@tondomaine.fr">Envoyer un e‑mail</a>
+                    <div class="socials">
+                        <a href="https://github.com/" class="btn-ghost" aria-label="GitHub">GitHub</a>
+                        <a href="https://www.linkedin.com/" class="btn-ghost" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+            <span>PORTFOLIO KL</span>
+            <a href="#hero" class="backtop">Haut de page ↑</a>
+            </div>
+        </footer>
+
+        
+    </body>
+</html>
