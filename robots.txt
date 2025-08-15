@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sazh-1987.github.io/P12-OC-INTWEB/sitemap.xml
